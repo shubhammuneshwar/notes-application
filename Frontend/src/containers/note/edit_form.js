@@ -35,7 +35,7 @@ class EditForm extends Component{
 	confirmDelete(){
 		const {data} = this.props.data;
 		this.props.deleteNote(data.id,()=>{
-			window.location.reload();
+			this.props.history.push(`/`);
 		});
 	}
 
