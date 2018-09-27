@@ -1,0 +1,309 @@
+
+/* Required CSS for login and  Signup*/
+
+#LoginForm {
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  padding:10px;
+  height:100%;
+  background: currentColor;
+}
+
+#logo {
+  background-image: url("https://image.ibb.co/i28XP9/logo.png");
+  height: 150px;
+  width: 200px;
+  margin-left: 42%;
+  margin-top: -50;
+}
+
+.newuser-signup a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+  margin-top: 2%;
+}
+
+.form-heading { color:#fff; font-size:23px;}
+.panel h2{ color:#444444; font-size:18px; margin:0 0 8px 0;}
+.panel p { color:#777777; font-size:14px; margin-bottom:30px; line-height:24px;}
+.login-form .form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+.main-div {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 2px;
+  margin: 10px auto 30px;
+  max-width: 38%;
+  padding: 50px 70px 70px 71px;
+}
+
+.login-form .form-group {
+  margin-bottom:10px;
+}
+.login-form{ text-align:center;}
+.forgot a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.login-form  .btn.btn-primary {
+  background: #007bff none repeat scroll 0 0;
+  border-color: #007bff;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+}
+.forgot {
+  text-align: left; margin-bottom:30px;
+}
+.botto-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin: auto;
+}
+.login-form .btn.btn-primary.reset {
+  background: #ff9900 none repeat scroll 0 0;
+}
+.back { text-align: left; margin-top:10px;}
+.back a {color: #444444; font-size: 13px;text-decoration: none;}
+
+/*  Navbar  CSS */
+.nav-header{
+  background: currentColor;
+  height: 48px;
+}
+#nav-logo {
+  background-image: url(https://image.ibb.co/i28XP9/logo.png);
+  height: 148px;
+  width: 200px;
+  z-index: 999;
+  margin-top: -80;
+  margin-bottom: -40;
+}
+
+.nav-item{
+  align-items: center;
+  display: flex;
+  line-height: 1;
+  margin: 0 8px;
+}
+
+.btn-logout{
+  margin: 10;
+  padding: 0px 0;
+  width: 80;
+  margin-right: 30px;
+  color: #000;
+  font-size: 14px;
+}
+
+
+
+/*  Notes CRUD CSS */
+
+.notes {
+  padding: 5px 20px 5px 20px;
+  background: #F7F7F9;
+  box-shadow: 0 0 1px rgba(0,0,0,.15);
+  height: 120px;
+  border: 1px bottom;
+}
+
+.notes-header {
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.notes .title {
+  font-size: 18;
+  font-family: Palatino Linotype;
+  font-weight: 600;
+}
+
+.notes .date-created {
+  font-size: 15;
+  font-family: Palatino Linotype;
+  font-style: oblique;
+}
+
+.notes .notes-content {
+  padding-top: 20px;
+  font-size: 13;
+  font-family: gotham, helvetica, arial, sans-serif;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.notes:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+
+.icons{
+  display: inline;
+  float: right;
+}
+
+.icons i{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.notes .icons{
+  font-size: 20;
+  margin-top: -20px;
+}
+
+.icons .text{
+  font-size: 14;
+}
+
+.notes-count {
+  font-family: Palatino Linotype;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  color: #007bff;
+}
+
+.leftpane-header{
+  font-size: 30px;
+  padding: 10px;
+  font-family: fantasy;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.layout-pane.layout-pane-primary{
+  width: 400px;
+}
+
+.layout-pane{
+  width: 65% !important;
+}
+
+
+.notes a span {
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+  z-index: 1;
+}
+
+a.notes-link {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+
+.note-detail-container{
+  padding: 40px 0px;
+}
+
+.note-detail-container .icons{
+  font-size: 24;
+  color: #007bff;
+}
+
+
+.note-detail-top-row .save-note{
+  margin: 10;
+  padding: 0px 0;
+  width: 80;
+  margin-right: 30px;
+  color: #000;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+
+.note-detail-container .note-title{
+  width: 50%;
+}
+
+.note-detail-container .note-title input{
+  font-size: 28px;
+  font-family: Palatino Linotype;
+  font-weight: 600;
+}
+
+.note-detail-container input{
+  border: none;
+}
+
+.note-detail-container input:focus{
+  border: none;
+  box-shadow: none;
+  border-bottom: 0.04rem solid lightblue;
+  background: #f4f4fc;
+}
+
+.note-detail-container textarea{
+  height: 400px;
+}
+
+.note-detail-container textarea:focus{
+  background: #f4f4fc;
+}
+
+.note-detail-container .note-content input{
+  font-size: 16px !important;
+  padding-top: 20px;
+  font-size: 13;
+  font-family: gotham, helvetica, arial, sans-serif;
+  border-bottom: 0.04rem solid lightblue;
+  word-break: break-word;
+}
+
+.new-note {
+  font-size: 30px !important;
+  margin-bottom: -10;
+  margin-left: -20;
+}
+
+.fa {
+  cursor: pointer;
+}
+
+.fa.fa-trash{
+  margin-top: 8px
+}
+
+.splitter-layout{
+  height: 90% !important;
+  background: #f4f4fc;
+}
+
+.form-control{
+  background: #f4f4fc;
+}
+
+.notes-index-container{
+  font-size: 30px;
+  padding-top: 30%;
+  text-align: center;
+  font-family: inherit;
+  color: steelblue;
+}
+
+.notes-index-sidebar{
+  font-size: 30px;
+  padding-top: 30%;
+  text-align: center;
+  font-family: inherit;
+  color: steelblue;
+}
