@@ -38,8 +38,8 @@ $ npm install
 $ npm run dev
 ```
 
-Now the clientside react server is running one is localhost:8080 and the second django-api application is live at localhost:8000.
+Now the clientside react server is running one is localhost:3000 and the second django-api application is live at localhost:8000.
 
-You can visit the application by just going at http://localhost:8080 in your browser window.
+You can visit the application by just going at http://localhost:3000/signin in your browser window.
 
 *Note: This Application is tested on Chrome Browser (1440 x 2043) and might not be compatible with smaller screen browsers/phone browsers.*
