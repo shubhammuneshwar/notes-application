@@ -1,12 +1,11 @@
-
 /* Required CSS for login and  Signup*/
 
 #LoginForm {
-  background-repeat:no-repeat;
-  background-position:center;
-  background-size:cover;
-  padding:10px;
-  height:100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  height: 100%;
   background: currentColor;
 }
 
@@ -25,9 +24,24 @@
   margin-top: 2%;
 }
 
-.form-heading { color:#fff; font-size:23px;}
-.panel h2{ color:#444444; font-size:18px; margin:0 0 8px 0;}
-.panel p { color:#777777; font-size:14px; margin-bottom:30px; line-height:24px;}
+.form-heading {
+  color: #fff;
+  font-size: 23px;
+}
+
+.panel h2 {
+  color: #444444;
+  font-size: 18px;
+  margin: 0 0 8px 0;
+}
+
+.panel p {
+  color: #777777;
+  font-size: 14px;
+  margin-bottom: 30px;
+  line-height: 24px;
+}
+
 .login-form .form-control {
   background: #f7f7f7 none repeat scroll 0 0;
   border: 1px solid #d4d4d4;
@@ -36,6 +50,7 @@
   height: 50px;
   line-height: 50px;
 }
+
 .main-div {
   background: #ffffff none repeat scroll 0 0;
   border-radius: 2px;
@@ -45,15 +60,20 @@
 }
 
 .login-form .form-group {
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
-.login-form{ text-align:center;}
+
+.login-form {
+  text-align: center;
+}
+
 .forgot a {
   color: #777777;
   font-size: 14px;
   text-decoration: underline;
 }
-.login-form  .btn.btn-primary {
+
+.login-form .btn.btn-primary {
   background: #007bff none repeat scroll 0 0;
   border-color: #007bff;
   color: #ffffff;
@@ -63,25 +83,41 @@
   line-height: 50px;
   padding: 0;
 }
+
 .forgot {
-  text-align: left; margin-bottom:30px;
+  text-align: left;
+  margin-bottom: 30px;
 }
+
 .botto-text {
   color: #ffffff;
   font-size: 14px;
   margin: auto;
 }
+
 .login-form .btn.btn-primary.reset {
   background: #ff9900 none repeat scroll 0 0;
 }
-.back { text-align: left; margin-top:10px;}
-.back a {color: #444444; font-size: 13px;text-decoration: none;}
+
+.back {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.back a {
+  color: #444444;
+  font-size: 13px;
+  text-decoration: none;
+}
+
 
 /*  Navbar  CSS */
-.nav-header{
+
+.nav-header {
   background: currentColor;
   height: 48px;
 }
+
 #nav-logo {
   background-image: url(https://image.ibb.co/i28XP9/logo.png);
   height: 148px;
@@ -91,14 +127,14 @@
   margin-bottom: -40;
 }
 
-.nav-item{
+.nav-item {
   align-items: center;
   display: flex;
   line-height: 1;
   margin: 0 8px;
 }
 
-.btn-logout{
+.btn-logout {
   margin: 10;
   padding: 0px 0;
   width: 80;
@@ -108,13 +144,12 @@
 }
 
 
-
 /*  Notes CRUD CSS */
 
 .notes {
   padding: 5px 20px 5px 20px;
   background: #F7F7F9;
-  box-shadow: 0 0 1px rgba(0,0,0,.15);
+  box-shadow: 0 0 1px rgba(0, 0, 0, .15);
   height: 120px;
   border: 1px bottom;
 }
@@ -150,23 +185,22 @@
   color: #fff;
 }
 
-
-.icons{
+.icons {
   display: inline;
   float: right;
 }
 
-.icons i{
+.icons i {
   margin-left: 5px;
   margin-right: 5px;
 }
 
-.notes .icons{
+.notes .icons {
   font-size: 20;
   margin-top: -20px;
 }
 
-.icons .text{
+.icons .text {
   font-size: 14;
 }
 
@@ -178,7 +212,7 @@
   color: #007bff;
 }
 
-.leftpane-header{
+.leftpane-header {
   font-size: 30px;
   padding: 10px;
   font-family: fantasy;
@@ -186,20 +220,19 @@
   font-weight: bolder;
 }
 
-.layout-pane.layout-pane-primary{
+.layout-pane.layout-pane-primary {
   width: 400px;
 }
 
-.layout-pane{
+.layout-pane {
   width: 65% !important;
 }
 
-
 .notes a span {
-  position:absolute;
-  width:100%;
-  height:100%;
-  top:0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
   left: 0;
   z-index: 1;
 }
@@ -209,17 +242,16 @@ a.notes-link {
   text-decoration: none !important;
 }
 
-.note-detail-container{
+.note-detail-container {
   padding: 40px 0px;
 }
 
-.note-detail-container .icons{
+.note-detail-container .icons {
   font-size: 24;
   color: #007bff;
 }
 
-
-.note-detail-top-row .save-note{
+.note-detail-top-row .save-note {
   margin: 10;
   padding: 0px 0;
   width: 80;
@@ -230,37 +262,36 @@ a.notes-link {
   margin-bottom: 20px;
 }
 
-
-.note-detail-container .note-title{
+.note-detail-container .note-title {
   width: 50%;
 }
 
-.note-detail-container .note-title input{
+.note-detail-container .note-title input {
   font-size: 28px;
   font-family: Palatino Linotype;
   font-weight: 600;
 }
 
-.note-detail-container input{
+.note-detail-container input {
   border: none;
 }
 
-.note-detail-container input:focus{
+.note-detail-container input:focus {
   border: none;
   box-shadow: none;
   border-bottom: 0.04rem solid lightblue;
   background: #f4f4fc;
 }
 
-.note-detail-container textarea{
+.note-detail-container textarea {
   height: 400px;
 }
 
-.note-detail-container textarea:focus{
+.note-detail-container textarea:focus {
   background: #f4f4fc;
 }
 
-.note-detail-container .note-content input{
+.note-detail-container .note-content input {
   font-size: 16px !important;
   padding-top: 20px;
   font-size: 13;
@@ -279,20 +310,20 @@ a.notes-link {
   cursor: pointer;
 }
 
-.fa.fa-trash{
+.fa.fa-trash {
   margin-top: 8px
 }
 
-.splitter-layout{
+.splitter-layout {
   height: 90% !important;
   background: #f4f4fc;
 }
 
-.form-control{
+.form-control {
   background: #f4f4fc;
 }
 
-.notes-index-container{
+.notes-index-container {
   font-size: 30px;
   padding-top: 30%;
   text-align: center;
@@ -300,7 +331,7 @@ a.notes-link {
   color: steelblue;
 }
 
-.notes-index-sidebar{
+.notes-index-sidebar {
   font-size: 30px;
   padding-top: 30%;
   text-align: center;

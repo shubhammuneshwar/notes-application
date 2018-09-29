@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 import { ToastContainer, toast } from "react-toastify";
 
-const ToastElement = () =>{
-	return(
+const ToastElement = () => {
+  return (
     <ToastContainer
       position="top-right"
       autoClose={3000}
@@ -14,7 +14,7 @@ const ToastElement = () =>{
       draggable
       pauseOnHover
     />
-	);
+  );
 };
 
 export default ToastElement;
