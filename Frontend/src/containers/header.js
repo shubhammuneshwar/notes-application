@@ -16,13 +16,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import SplitterLayout from "react-splitter-layout";
 
 class Header extends Component {
-  logoutUser() {
+  redirectTosignIn() {
     this.props.signout(() => {
       this.props.history.push("/signin");
     });
   }
   renderAuthMode(authenticated, props) {
-    if (
+    if (!authenticated && props.location.pathname == "/") {
+      this.redirectTosignIn();
+    } else if (
       authenticated &&
       (props.location.pathname != "/signin" &&
         props.location.pathname != "/signup")
@@ -38,7 +40,7 @@ class Header extends Component {
           <button
             type="button"
             className="btn btn-primary btn-logout pull-right"
-            onClick={this.logoutUser.bind(this)}
+            onClick={this.redirectTosignIn.bind(this)}
           >
             Sign out
           </button>
